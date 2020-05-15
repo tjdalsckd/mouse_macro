@@ -33,6 +33,8 @@ def move():
                print("move1")
                mouse.move(move1_x, move1_y, absolute=True, duration=0.25)
                mouse.click()
+           elif value==99999:
+               time.sleep(5)
            else:
                print("move2")
                mouse.move(move2_x, move2_y, absolute=True, duration=0.25)
